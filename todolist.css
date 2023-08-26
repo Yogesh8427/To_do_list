@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-repeat: repeat;
+}
+.contaner{
+    max-width: 900px;
+    width: 90%;
+    margin: 3% auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: rgba(233, 240, 240, 0.651);
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: larger;
+    
+}
+button{
+    padding: 10px;
+    width: 100%;
+    margin: 0%;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+}
+input[type="text"]{
+    border: 3px solid gray;
+    width: 60%;
+}
+#addbutton{
+    border: 3px solid rgb(17, 88, 11);
+    color:  rgb(17, 88, 11);
+}
+#addbutton:hover{
+    cursor: pointer;
+    background-color: rgb(17, 88, 11);
+    color: white;
+}
+#de-all-but{
+    border: 3px solid rgb(88, 11, 11);
+    color:  rgb(88, 11, 11);
+}
+#de-all-but:hover{
+    cursor: pointer;
+    background-color: rgb(88, 11, 11);
+    color: white;
+}
+table,tr{
+    border-collapse: separate;
+    width: 90%;
+    padding: 5px;
+    margin-top:1%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+td{
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    border-radius: 5px;
+}
+table tr:nth-child(odd){
+    background-color: rgba(69, 167, 180, 0.822);
+}
+/* h1{
+    text-align: center;
+    background-color: rgb(15, 77, 15);
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+} */
+.blue{
+    border: 3px solid rgb(34, 64, 77);;
+    color: rgb(34, 64, 77);
+}
+.blue:hover{
+    cursor: pointer;
+    background-color:rgb(34, 64, 77) ;
+    color: white;
+}
+.red{
+    border: 3px solid rgb(88, 11, 11);
+    color:  rgb(88, 11, 11);
+}
+.red:hover{
+    cursor: pointer;
+    background-color: rgb(88, 11, 11);
+    color: white;
+    
+}
+
+/* nav */
+nav{
+    color: white;
+    padding: 10px;
+    font-size: xx-large;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #051937;
+}
+nav input{
+    position: relative;
+    right: 10%;
+    font-size:large;
+    margin: 0;
+    border: none;
+    text-align: center;
+    width: 20%;
+    float: right;
+}
+nav span{
+    margin-left: 20%;
+}
